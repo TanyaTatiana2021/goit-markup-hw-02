@@ -1,0 +1,199 @@
+body {}
+header {}
+nav {}
+nav a.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+nav a.logo span.blueWorld {
+    color: #2196F3;
+    text-transform: capitalize;
+}
+nav a.logo span.blueWorld span {
+    text-transform: capitalize;
+}
+nav ul {}
+nav ul li {}
+nav ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+nav ul li a:hover {
+   color: #2196F3;
+}
+header ul {}
+header ul li {}
+header ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+header ul li a:hover {
+    color: #2196F3;
+}
+main {}
+.banner {
+    background-color: #2F303A;
+}
+.banner h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner button {
+    background-color: #2196F3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.aboutUs {}
+.aboutUs h2 {}
+.aboutUs ul {}
+.aboutUs ul li {}
+.aboutUs ul li h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;    
+    color: #212121;
+}
+.aboutUs ul li p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+.whatWeDo {}
+.whatWeDo h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+.whatWeDo ul {}
+.whatWeDo ul li {}
+.whatWeDo ul li img {}
+.team {}
+.team h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+.team ul {}
+.team ul li {}
+.team ul li img {}
+.team ul li h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+.team ul li p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+footer {
+    background-color: #2F303A;
+}
+footer a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+footer a span.blueWorld {
+    color: #2196F3;
+}
+footer a span.blueWorld span {
+    text-transform: capitalize;
+}
+address {}
+address ul {}
+address ul li {}
+footer address ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+footer address ul li a:hover {
+    color: #ffffff;
+}
+.menu {}
+.menu ul {}
+.menu ul li {}
+.menu ul li button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #212121;
+    background-color: #F5F4FA;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.menu ul li button:hover {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.portfolio {}
+.portfolio h2 {}
+.portfolio ul {}
+.portfolio ul li {}
+.portfolio ul li img {}
+.portfolio ul li h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+.portfolio ul li p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}

@@ -1,3 +1,8 @@
+:root {
+    --title-color: #212121;
+    --hover-color: #2196F3;
+    --text-color: #757575;
+}
 body {}
 header {}
 nav {}
@@ -6,8 +11,10 @@ nav a.logo {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: #000000;
+    text-decoration: none;
+    
 }
 nav a.logo span.blueWorld {
     color: #2196F3;
@@ -16,31 +23,40 @@ nav a.logo span.blueWorld {
 nav a.logo span.blueWorld span {
     text-transform: capitalize;
 }
-nav ul {}
+nav ul {
+    list-style: none;
+}
 nav ul li {}
 nav ul li a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    color: #212121;
+    line-height: 1.14;
+    color: var(--title-color);
+    text-decoration: none;
+    
 }
 nav ul li a:hover {
-   color: #2196F3;
+   color: var(--hover-color);
+   text-decoration: none;
 }
-header ul {}
+header ul {
+    list-style: none;
+}
 header ul li {}
 header ul li a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    color: #757575;
+    line-height: 1.14;
+    color: var(--text-color);
+    text-decoration: none;
 }
 header ul li a:hover {
-    color: #2196F3;
+    color: var(--hover-color);
+    text-decoration: none;
 }
 main {}
 .banner {
@@ -51,40 +67,42 @@ main {}
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .banner button {
-    background-color: #2196F3;
+    background-color: var(--hover-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     color: #FFFFFF;
     cursor: pointer;
 }
 .aboutUs {}
 .aboutUs h2 {}
-.aboutUs ul {}
+.aboutUs ul {
+    list-style: none;
+}
 .aboutUs ul li {}
 .aboutUs ul li h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;    
-    color: #212121;
+    color: var(--title-color);
 }
 .aboutUs ul li p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    color: #757575;
+    line-height: 1.71;
+    color: var(--text-color);
 }
 .whatWeDo {}
 .whatWeDo h2 {
@@ -92,10 +110,12 @@ main {}
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    color: #212121;
+    line-height: 1.16;
+    color: var(--title-color);
 }
-.whatWeDo ul {}
+.whatWeDo ul {
+    list-style: none;
+}
 .whatWeDo ul li {}
 .whatWeDo ul li img {}
 .team {}
@@ -104,10 +124,12 @@ main {}
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    color: #212121;
+    line-height: 1.16;
+    color: var(--title-color);
 }
-.team ul {}
+.team ul {
+    list-style: none;
+}
 .team ul li {}
 .team ul li img {}
 .team ul li h3 {
@@ -115,16 +137,16 @@ main {}
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    color: #212121;
+    line-height: 1.18;
+    color: var(--title-color);
 }
 .team ul li p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    color: #757575;
+    line-height: 1.18;
+    color: var(--text-color);
 }
 footer {
     background-color: #2F303A;
@@ -134,8 +156,9 @@ footer a {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: #FFFFFF;
+    text-decoration: none;
 }
 footer a span.blueWorld {
     color: #2196F3;
@@ -144,56 +167,64 @@ footer a span.blueWorld span {
     text-transform: capitalize;
 }
 address {}
-address ul {}
+address ul {
+    list-style: none;
+}
 address ul li {}
 footer address ul li a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 footer address ul li a:hover {
     color: #ffffff;
+    text-decoration: none;
 }
 .menu {}
-.menu ul {}
+.menu h1 {}
+.menu ul {
+    list-style: none;
+}
 .menu ul li {}
 .menu ul li button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    color: #212121;
+    line-height: 1.62;
+    color: var(--title-color);
     background-color: #F5F4FA;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 .menu ul li button:hover {
-    background-color: #2196F3;
+    background-color: var(--hover-color);
     color: #ffffff;
 }
-.portfolio {}
-.portfolio h2 {}
-.portfolio ul {}
-.portfolio ul li {}
-.portfolio ul li img {}
-.portfolio ul li h3 {
+.menu ul.ourProject {
+    list-style: none;
+}
+.menu ul.ourProject li {}
+.menu ul.ourProject li a {}
+.menu ul.ourProject li a img {}
+.menu ul.ourProject li a h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    color: #212121;
+    line-height: 2;
+    color: var(--title-color);
 }
-.portfolio ul li p {
+.menu ul li a p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
-    color: #757575;
+    line-height: 1.87;
+    color: var(--text-color);
 }

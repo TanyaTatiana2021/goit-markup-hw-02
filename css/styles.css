@@ -2,11 +2,14 @@
     --title-color: #212121;
     --hover-color: #2196F3;
     --text-color: #757575;
+    --font-text: 'Roboto';
+    --font-style-text: normal;
+    --font-style-headlines: normal;
 }
 body {}
 header {}
-nav {}
-nav a.logo {
+header nav {}
+header nav a.logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -16,20 +19,20 @@ nav a.logo {
     text-decoration: none;
     
 }
-nav a.logo span.blueWorld {
+header nav a.logo span.blueWorld {
     color: #2196F3;
     text-transform: capitalize;
 }
-nav a.logo span.blueWorld span {
+header nav a.logo span.blueWorld span {
     text-transform: capitalize;
 }
-nav ul {
+header nav ul {
     list-style: none;
 }
-nav ul li {}
-nav ul li a {
-    font-family: 'Roboto';
-    font-style: normal;
+header nav ul li {}
+header nav ul li a {
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -37,7 +40,7 @@ nav ul li a {
     text-decoration: none;
     
 }
-nav ul li a:hover {
+header nav ul li a:hover {
    color: var(--hover-color);
    text-decoration: none;
 }
@@ -46,8 +49,8 @@ header ul {
 }
 header ul li {}
 header ul li a {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -63,8 +66,8 @@ main {}
     background-color: #2F303A;
 }
 .banner h1 {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-headlines);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -73,8 +76,8 @@ main {}
 }
 .banner button {
     background-color: var(--hover-color);
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -88,8 +91,8 @@ main {}
 }
 .aboutUs ul li {}
 .aboutUs ul li h3 {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-headlines);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -97,8 +100,8 @@ main {}
     color: var(--title-color);
 }
 .aboutUs ul li p {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -106,8 +109,8 @@ main {}
 }
 .whatWeDo {}
 .whatWeDo h2 {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-headlines);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -120,8 +123,8 @@ main {}
 .whatWeDo ul li img {}
 .team {}
 .team h2 {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-headlines);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -133,16 +136,16 @@ main {}
 .team ul li {}
 .team ul li img {}
 .team ul li h3 {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-headlines);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: var(--title-color);
 }
 .team ul li p {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -166,14 +169,23 @@ footer a span.blueWorld {
 footer a span.blueWorld span {
     text-transform: capitalize;
 }
-address {}
-address ul {
+footer address {}
+footer address ul {
     list-style: none;
 }
-address ul li {}
+footer address ul li {}
+footer address ul li a.street {
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #ffffff;
+    text-decoration: none;
+}
 footer address ul li a {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style:var(--font-style-text);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -181,7 +193,7 @@ footer address ul li a {
     text-decoration: none;
 }
 footer address ul li a:hover {
-    color: #ffffff;
+    color: var(--hover-color);
     text-decoration: none;
 }
 .menu {}
@@ -191,8 +203,8 @@ footer address ul li a:hover {
 }
 .menu ul li {}
 .menu ul li button {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -210,21 +222,25 @@ footer address ul li a:hover {
     list-style: none;
 }
 .menu ul.ourProject li {}
-.menu ul.ourProject li a {}
+.menu ul.ourProject li a {
+    text-decoration: none;
+}
 .menu ul.ourProject li a img {}
 .menu ul.ourProject li a h3 {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-headlines);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     color: var(--title-color);
+    text-decoration: none;
 }
 .menu ul li a p {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     color: var(--text-color);
+    text-decoration: none;
 }

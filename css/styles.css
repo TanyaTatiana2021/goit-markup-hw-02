@@ -40,7 +40,8 @@ header nav ul li a {
     text-decoration: none;
     
 }
-header nav ul li a:hover {
+header nav ul li a:hover,
+header nav ul li a:focus {
    color: var(--hover-color);
    text-decoration: none;
 }
@@ -57,7 +58,8 @@ header ul li a {
     color: var(--text-color);
     text-decoration: none;
 }
-header ul li a:hover {
+header ul li a:hover,
+header ul li a:focus {
     color: var(--hover-color);
     text-decoration: none;
 }
@@ -192,7 +194,8 @@ footer address ul li a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
-footer address ul li a:hover {
+footer address ul li a:hover, 
+footer address ul li a:focus {
     color: var(--hover-color);
     text-decoration: none;
 }
@@ -214,7 +217,8 @@ footer address ul li a:hover {
     border-radius: 4px;
     cursor: pointer;
 }
-.menu ul li button:hover {
+.menu ul li button:hover,
+.menu ul li button:focus {
     background-color: var(--hover-color);
     color: #ffffff;
 }

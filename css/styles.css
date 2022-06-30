@@ -5,8 +5,15 @@
     --font-text: 'Roboto';
     --font-style-text: normal;
     --font-style-headlines: normal;
+    --color-button-address: #ffffff;
+    --color-background: #2F303A;
 }
-body {}
+body {
+    font-family: var(--font-text);
+    font-style: var(--font-style-text);
+    font-size: 14px;
+    font-weight: 400;
+}
 header {}
 header nav {}
 header nav a.logo {
@@ -17,10 +24,9 @@ header nav a.logo {
     line-height: 1.19;
     color: #000000;
     text-decoration: none;
-    
-}
+    }
 header nav a.logo span.blueWorld {
-    color: #2196F3;
+    color: var(--hover-color);
     text-transform: capitalize;
 }
 header nav a.logo span.blueWorld span {
@@ -31,14 +37,10 @@ header nav ul {
 }
 header nav ul li {}
 header nav ul li a {
-    font-family: var(--font-text);
-    font-style: var(--font-style-text);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     color: var(--title-color);
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 header nav ul li a.current {
     color: var(--hover-color);
@@ -52,11 +54,8 @@ header ul {
     list-style: none;
 }
 header ul li {}
-header ul li a {
-    font-family: var(--font-text);
-    font-style: var(--font-style-text);
-    font-weight: 500;
-    font-size: 14px;
+header ul li a {  
+    font-weight: 500;    
     line-height: 1.14;
     color: var(--text-color);
     text-decoration: none;
@@ -68,25 +67,22 @@ header ul li a:focus {
 }
 main {}
 .banner {
-    background-color: #2F303A;
+    background-color: var(--color-background);
 }
-.banner h1 {
-    font-family: var(--font-text);
+.banner h1 {    
     font-style: var(--font-style-headlines);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--color-button-address);
 }
 .banner button {
-    background-color: var(--hover-color);
-    font-family: var(--font-text);
-    font-style: var(--font-style-text);
+    background-color: var(--hover-color);  
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    color: #FFFFFF;
+    color: var(--color-button-address);
     cursor: pointer;
 }
 .aboutUs {}
@@ -95,26 +91,19 @@ main {}
     list-style: none;
 }
 .aboutUs ul li {}
-.aboutUs ul li h3 {
-    font-family: var(--font-text);
+.aboutUs ul li h3 {    
     font-style: var(--font-style-headlines);
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;    
     color: var(--title-color);
 }
-.aboutUs ul li p {
-    font-family: var(--font-text);
-    font-style: var(--font-style-text);
-    font-weight: 400;
-    font-size: 14px;
+.aboutUs ul li p { 
     line-height: 1.71;
     color: var(--text-color);
 }
 .whatWeDo {}
 .whatWeDo h2 {
-    font-family: var(--font-text);
     font-style: var(--font-style-headlines);
     font-weight: 700;
     font-size: 36px;
@@ -127,8 +116,7 @@ main {}
 .whatWeDo ul li {}
 .whatWeDo ul li img {}
 .team {}
-.team h2 {
-    font-family: var(--font-text);
+.team h2 {  
     font-style: var(--font-style-headlines);
     font-weight: 700;
     font-size: 36px;
@@ -140,24 +128,20 @@ main {}
 }
 .team ul li {}
 .team ul li img {}
-.team ul li h3 {
-    font-family: var(--font-text);
+.team ul li h3 {   
     font-style: var(--font-style-headlines);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: var(--title-color);
 }
-.team ul li p {
-    font-family: var(--font-text);
-    font-style: var(--font-style-text);
-    font-weight: 400;
+.team ul li p {     
     font-size: 16px;
     line-height: 1.18;
     color: var(--text-color);
 }
 footer {
-    background-color: #2F303A;
+    background-color: var(--color-background);
 }
 footer a {
     font-family: 'Raleway';
@@ -165,32 +149,29 @@ footer a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #FFFFFF;
+    color: var(--color-button-address);
     text-decoration: none;
 }
 footer a span.blueWorld {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 footer a span.blueWorld span {
     text-transform: capitalize;
 }
 footer address {}
 footer address ul {
-    list-style: none;
+    list-style: none;    
 }
-footer address ul li {}
+footer address ul li {    
+}
 footer address ul li a.street {
-    font-family: var(--font-text);
-    font-style: var(--font-style-text);
-    font-weight: 400;
-    font-size: 14px;
+    font-family: var(--font-text);    
     line-height: 1.71;
-    color: #ffffff;
+    color: var(--color-button-address);
     text-decoration: none;
 }
 footer address ul li a {
-    font-family: var(--font-text);
-    font-style:var(--font-style-text);
+    font-family: var(--font-text);   
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -208,9 +189,7 @@ footer address ul li a:focus {
     list-style: none;
 }
 .menu ul li {}
-.menu ul li button {
-    font-family: var(--font-text);
-    font-style: var(--font-style-text);
+.menu ul li button {   
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -223,7 +202,7 @@ footer address ul li a:focus {
 .menu ul li button:hover,
 .menu ul li button:focus {
     background-color: var(--hover-color);
-    color: #ffffff;
+    color: var(--color-button-address);
 }
 .menu ul.ourProject {
     list-style: none;
@@ -234,7 +213,6 @@ footer address ul li a:focus {
 }
 .menu ul.ourProject li a img {}
 .menu ul.ourProject li a h3 {
-    font-family: var(--font-text);
     font-style: var(--font-style-headlines);
     font-weight: 700;
     font-size: 18px;
@@ -242,10 +220,7 @@ footer address ul li a:focus {
     color: var(--title-color);
     text-decoration: none;
 }
-.menu ul li a p {
-    font-family: var(--font-text);
-    font-style: var(--font-style-text);
-    font-weight: 400;
+.menu ul li a p {  
     font-size: 16px;
     line-height: 1.87;
     color: var(--text-color);

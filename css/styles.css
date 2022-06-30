@@ -40,6 +40,9 @@ header nav ul li a {
     text-decoration: none;
     
 }
+header nav ul li a.current {
+    color: var(--hover-color);
+}
 header nav ul li a:hover,
 header nav ul li a:focus {
    color: var(--hover-color);
